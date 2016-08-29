@@ -1,0 +1,27 @@
+[
+  {
+    "text": "Main Navigation",
+    "heading": "true",
+    "translate": "sidebar.heading.HEADER"
+  },
+  {
+    "text": "Welcome",
+    "sref": "app.welcome",
+    "icon": "icon-tag"
+  },
+  {
+    "text": "Dashboard",
+    "sref": "app.dashboard",
+    "icon": "icon-speedometer"
+  },
+  {
+    "text": "Reports",
+    "sref": "#",
+    "icon": "fa fa-sitemap",
+    "submenu": [
+      {"text": "Classification", "sref": "app.classification"},
+      {"text": "Association",    "sref": "app.association"}
+    ],
+    "label": "label label-primary"
+  }
+]
